@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_variable.setOnClickListener { startActivity<VariableActivity>() }
+        btn_array.setOnClickListener { startActivity<ArrayActivity>() }
     }
 }
