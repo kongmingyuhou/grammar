@@ -60,6 +60,13 @@
                     android:layout_weight="1"
                     android:text="集合操作" />
 
+                <Button
+                    android:id="@+id/btn_list_of"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="队列操作" />
+
             </LinearLayout>
 
 
