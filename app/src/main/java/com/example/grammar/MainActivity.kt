@@ -14,5 +14,6 @@ class MainActivity : AppCompatActivity() {
         btn_variable.setOnClickListener { startActivity<VariableActivity>() }
         btn_array.setOnClickListener { startActivity<ArrayActivity>() }
         btn_string.setOnClickListener { startActivity<StringActivity>() }
+        btn_set_of.setOnClickListener { startActivity<SetOfActivity>() }
     }
 }
