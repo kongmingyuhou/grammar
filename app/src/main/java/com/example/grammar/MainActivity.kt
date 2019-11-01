@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
         btn_string.setOnClickListener { startActivity<StringActivity>() }
         btn_set_of.setOnClickListener { startActivity<SetOfActivity>() }
         btn_list_of.setOnClickListener { startActivity<ListOfActivity>() }
+        btn_map_of.setOnClickListener { startActivity<MapOfActivity>() }
     }
 }
