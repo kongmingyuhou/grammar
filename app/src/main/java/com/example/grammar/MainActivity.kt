@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
         btn_set_of.setOnClickListener { startActivity<SetOfActivity>() }
         btn_list_of.setOnClickListener { startActivity<ListOfActivity>() }
         btn_map_of.setOnClickListener { startActivity<MapOfActivity>() }
+        btn_condition.setOnClickListener { startActivity<ConditionActivity>() }
+        btn_repeat.setOnClickListener { startActivity<Bianli_XHActivity>() }
     }
 }

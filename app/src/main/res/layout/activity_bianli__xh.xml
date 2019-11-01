@@ -18,46 +18,47 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="诗名: "
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_poem_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="早发白帝城\n李白"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="谜题："
-                    android:textColor="#000000"
-                    android:textSize="17sp"/>
-
-                <TextView
-                    android:id="@+id/tv_puzzle"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
+                    android:text="诗句："
                     android:gravity="center"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="谜底："
-                    android:textColor="#000000"
-                    android:textSize="17sp"/>
-
-                <TextView
-                    android:id="@+id/tv_answer"
+                    android:id="@+id/tv_poem_content"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -73,20 +74,20 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_if_simple"
+                    android:id="@+id/btn_repeat_item"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="简单分支"
+                    android:text="数组元素循环"
                     android:textColor="#000000"
-                    android:textSize="17sp"/>
+                    android:textSize="17sp" />
 
                 <Button
-                    android:id="@+id/btn_if_value"
+                    android:id="@+id/btn_repeat_subscript"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="简单分支有返回值"
+                    android:text="数组下标循环"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
@@ -98,20 +99,20 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_when_simple"
+                    android:id="@+id/btn_repeat_begin"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="多路分支"
+                    android:text="开头处判断循环"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
                 <Button
-                    android:id="@+id/btn_when_value"
+                    android:id="@+id/btn_repeat_end"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="多路分支有返回值"
+                    android:text="结尾处判断循环"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
@@ -123,29 +124,20 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_when_variable"
+                    android:id="@+id/btn_repeat_continue"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="多路的变量条件"
+                    android:text="继续和跳出"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
                 <Button
-                    android:id="@+id/btn_when_region"
+                    android:id="@+id/btn_repeat_break"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="多路的条件范围"
-                    android:textColor="#000000"
-                    android:textSize="17sp" />
-
-                <Button
-                    android:id="@+id/btn_when_instance"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="多路的对象类型"
+                    android:text="跳到指定位置"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
@@ -154,5 +146,6 @@
         </LinearLayout>
 
     </ScrollView>
+
 
 </LinearLayout>
