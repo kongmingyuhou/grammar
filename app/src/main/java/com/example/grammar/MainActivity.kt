@@ -22,5 +22,11 @@ class MainActivity : AppCompatActivity() {
         btn_null.setOnClickListener { startActivity<NullActivity>() }
         btn_equal.setOnClickListener { startActivity<EqualActivity>() }
         btn_function.setOnClickListener { startActivity<FunctionActivity>() }
+        btn_special.setOnClickListener { startActivity<SpecialActivity>() }
+        btn_system.setOnClickListener { startActivity<SystemActivity>() }
+        //btn_class.setOnClickListener { startActivity<ClassActivity>() }
+        //btn_member.setOnClickListener { startActivity<MemberActivity>() }
+        //btn_inherit.setOnClickListener { startActivity<InheritActivity>() }
+        //btn_secret.setOnClickListener { startActivity<SecretActivity>() }
     }
 }
