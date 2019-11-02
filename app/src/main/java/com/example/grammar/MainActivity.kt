@@ -20,5 +20,7 @@ class MainActivity : AppCompatActivity() {
         btn_condition.setOnClickListener { startActivity<ConditionActivity>() }
         btn_repeat.setOnClickListener { startActivity<Bianli_XHActivity>() }
         btn_null.setOnClickListener { startActivity<NullActivity>() }
+        btn_equal.setOnClickListener { startActivity<EqualActivity>() }
+        btn_function.setOnClickListener { startActivity<FunctionActivity>() }
     }
 }
